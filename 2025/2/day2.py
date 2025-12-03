@@ -1,5 +1,3 @@
-import math
-
 file = "2/day2.txt"
 
 def file_to_list(file):
@@ -22,7 +20,6 @@ def part1():
                     total += i 
     return total
 
-from math import sqrt
 def factors(n):
     factorss = []
     for i in range(1, n):
@@ -51,4 +48,3 @@ def part2():
 
 print(part1())
 print(part2())
-print(4174379265-4135785406)
